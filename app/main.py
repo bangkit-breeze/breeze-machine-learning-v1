@@ -40,14 +40,8 @@ async def predict(image: UploadFile):
         "name": model_name,
         "version": model_version,
         "filename": image.filename,
-        "classifier": {
-            "class": predicted_class_clf,
-            "confidence": str(confidence_clf)
-        },
-        "segmentation": {
-            "class": ingredient_segmentation,
-        },
+        "food_name": predicted_class_clf,
+        "confidence": str(confidence_clf),
         "ingredients": ingredients,
         "total_emissions": total_emission,
-        "disclaimer": disclaimer_text if low_confidence else ""
     }
