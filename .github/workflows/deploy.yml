@@ -17,10 +17,14 @@ jobs:
       - name: Checkout code 
         uses: actions/checkout@v2
 
-      - name: Echo pwd
+      - name: Download model
         run: |
-          pwd
-          ls
+          curl -O ${{secrets.MODEL_SEGMENTATION_URL}}
+          mv model_segmentation.h5 ./app/model/model_segmentation.h5
+
+      - name: Echo model
+        run: |
+          ls ./app/model
     
       # - name: Set Up Cloud SDK
       #   uses: google-github-actions/setup-gcloud@v0.2.0
