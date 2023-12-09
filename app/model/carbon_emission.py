@@ -1,6 +1,9 @@
 import pandas as pd
+import os
 
-df = pd.read_csv("model/BREEZE_Food_Carbon_Emission.csv")
+dirname = os.path.dirname(__file__)
+food_carbon_datasets_path = os.path.join(dirname, 'BREEZE_Food_Carbon_Emission.csv')
+df = pd.read_csv(food_carbon_datasets_path)
 
 def getCarbonEmission(name: str):
   """Get Food Recipe and Emission"""

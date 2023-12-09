@@ -4,15 +4,15 @@ import numpy as np
 import pandas as pd
 import tensorflow as tf
 import tensorflow_hub as hub
+import os
 
-dirname = os.path.dirname(__file__)
 dirname = os.path.dirname(__file__)
 
 file_path_category = os.path.join(dirname, 'category_id_clean.txt')
 with open(file_path_category, 'r') as file:
     class_labels = [line.strip().replace("\t", "") for line in file]
 
-excel_file_path = 'model/Food_Dataset.xlsx'
+excel_file_path =  os.path.join(dirname, 'Food_Dataset.xlsx')
 df = pd.read_excel(excel_file_path, sheet_name='Carbon Emission')
 
 """
@@ -21,8 +21,8 @@ https://drive.google.com/uc?id=1Hi5ND78_yyD5dQlVN6WlcpDMw6TYwACG
 and save it to model/model_segmentation.h5
 """
 
-filename = os.path.join(dirname, 'model_segmentation.h5')
-model = tf.keras.models.load_model(filename, custom_objects={'KerasLayer':hub.KerasLayer})
+segmentation_model_path = os.path.join(dirname, 'model_segmentation.h5')
+model = tf.keras.models.load_model(segmentation_model_path, custom_objects={'KerasLayer':hub.KerasLayer})
 
 # Preprocess the Image
 def preprocess_image(img):
