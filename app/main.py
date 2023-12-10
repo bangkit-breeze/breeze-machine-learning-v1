@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException, UploadFile
-from model.carbon_emission import getCarbonEmission
+from model.carbon_emission import (getCarbonEmission,
+                                   getCarbonEmissionSegmentation)
 from model.model_classification import predict_image_clf
 from model.model_segmentation import predict_image_sgmnt
 from PIL import Image
@@ -27,14 +28,23 @@ async def predict(image: UploadFile):
     if "image" not in image.content_type:
         raise HTTPException(status_code=400, detail="File must be an image")
 
+    # opening image
     img = Image.open(image.file)
-    predicted_class_clf, confidence_clf = predict_image_clf(img)
-    ingredients, total_emission = getCarbonEmission(predicted_class_clf)
-    ingredient_segmentation = predict_image_sgmnt(img)
 
-    # Check Threshold
-    low_confidence = True if (confidence_clf < THRESHOLD) else False
-    disclaimer_text = "The confidence is under 40%, change your angle!"
+    # predict using classification model
+    predicted_class_clf, confidence_clf = predict_image_clf(img)
+
+    ingredients = []
+    total_emission = 0
+
+    # check threshold
+    if confidence_clf < THRESHOLD:
+        predicted_class_clf = None
+        confidence_clf = 0
+        classes_segmentation = predict_image_sgmnt(img)
+        ingredients, total_emission = getCarbonEmissionSegmentation(classes_segmentation)
+    else:
+        ingredients, total_emission = getCarbonEmission(predicted_class_clf)
 
     return {
         "name": model_name,

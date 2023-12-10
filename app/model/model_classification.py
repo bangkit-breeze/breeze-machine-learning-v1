@@ -1,10 +1,11 @@
+import os
+
 import numpy as np
 import tensorflow as tf
 import tensorflow_hub as hub
-import os
 
 class_labels = [
-   'anggur', 'apel', 'ayam goreng', 'bakso', 'bubur-ayam', 'bubur-biji-salak', 'donuts', 'dumplings', 'hamburger', 'ikan-bakar', 'ikan-goreng', 'kentang goreng', 'kopi', 'martabak-manis', 'mie ayam', 'nasi-goreng', 'pisang', 'pisang goreng', 'rawon', 'rendang', 'roti', 'sate ayam', 'soto', 'steak', 'susu', 'tahu goreng', 'teh', 'telur', 'tempe-goreng', 'udang goreng'
+  "apple", "banana", "bread", "chicken-noodle", "chicken-porridge", "chicken-satay", "coffee", "donut", "dumpling", "egg", "french-fries", "fried-banana", "fried-chicken", "fried-fish", "fried-rice", "fried-shrimp", "fried-tempeh", "fried-tofu", "grape", "grilled-fish", "hamburger", "meatball", "milk", "rawon", "rendang", "soto", "steak", "sweet-martabak", "sweet-potato-porridge", "tea"
 ]
 
 # Load model

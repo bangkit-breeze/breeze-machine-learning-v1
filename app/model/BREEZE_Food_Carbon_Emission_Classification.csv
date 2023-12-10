@@ -1,0 +1,180 @@
+MAKANAN,BAHAN,BERAT (kg),Total_emissions (1kg CC / kg),Carbon Footprint
+grape,grape,0.15,0.53,0.0795
+apple,apple,0.1,0.3,0.03
+fried-chicken,chicken,0.2,3.2,0.6400000000000001
+chicken-porridge,chicken,0.075,3.2,0.24
+chicken-noodles,chicken,0.1,3.2,0.32000000000000006
+chicken-satay,chicken,0.2,3.2,0.6400000000000001
+soto,chicken,0.1,3.2,0.32000000000000006
+fried-chicken,salt,0.005,0.1,0.0005
+meatball,salt,0.005,0.1,0.0005
+chicken-porridge,salt,0.002,0.1,0.0002
+sweet-potato-porridge,salt,0.001,0.1,0.0001
+grilled-fish,salt,0.001,0.1,0.0001
+fried-fish,salt,0.001,0.1,0.0001
+french-fries,salt,0.005,0.1,0.0005
+sweet-martabak,salt,0.001,0.1,0.0001
+chicken-noodles,salt,0.005,0.1,0.0005
+fried-banana,salt,0.002,0.1,0.0002
+rawon,salt,0.01,0.1,0.001
+rendang,salt,0.005,0.1,0.0005
+bread,salt,0.005,0.1,0.0005
+chicken-satay,salt,0.002,0.1,0.0002
+soto,salt,0.005,0.1,0.0005
+steak,salt,0.005,0.1,0.0005
+egg,salt,0.005,0.1,0.0005
+fried-shrimp,salt,0.005,0.1,0.0005
+donut,salt,0.002,0.1,0.0002
+dumpling,salt,0.002,0.1,0.0002
+fried-chicken,pepper,0.005,1.0,0.005
+chicken-noodles,pepper,0.005,1.0,0.005
+fried-shrimp,pepper,0.005,1.0,0.005
+fried-chicken,garlic powder,0.005,2.3,0.0115
+meatball,garlic powder,0.005,2.3,0.0115
+fried-fish,garlic powder,0.001,2.3,0.0023
+fried-tempeh,garlic powder,0.001,2.3,0.0023
+fried-shrimp,garlic powder,0.005,2.3,0.0115
+fried-chicken,paprika,0.005,1.6,0.008
+fried-tempeh,paprika,0.001,1.6,0.0016
+fried-shrimp,paprika,0.005,1.6,0.008
+fried-chicken,flour,0.025,0.65,0.01625
+bread,flour,0.075,0.65,0.04875
+fried-shrimp,flour,0.02,0.65,0.013000000000000001
+donut,flour,0.08,0.65,0.052000000000000005
+dumpling,flour,0.075,0.65,0.04875
+fried-chicken,egg,0.025,4.5,0.1125
+meatball,egg,0.001,4.5,0.0045000000000000005
+fried-fish,egg,0.001,4.5,0.0045000000000000005
+sweet-martabak,egg,0.05,4.5,0.225
+egg,egg,0.05,4.5,0.225
+fried-shrimp,egg,0.03,4.5,0.135
+donut,egg,0.015,4.5,0.0675
+fried-chicken,breadcrumbs,0.025,1.7,0.0425
+fried-fish,breadcrumbs,0.002,1.7,0.0034
+meatball,minced meat,0.5,10.0,5.0
+meatball,tapioca flour,0.1,0.4,0.04000000000000001
+meatball,ground white pepper,0.005,7.7,0.0385
+chicken-satay,ground white pepper,0.002,7.7,0.0154
+meatball,onion powder,0.005,4.6,0.023
+fried-tempeh,onion powder,0.001,4.6,0.0046
+chicken-porridge,rice,0.075,4.5,0.33749999999999997
+fried-rice,rice,0.125,4.5,0.5625
+chicken-porridge,garlic,0.002,0.53,0.0010600000000000002
+chicken-noodles,garlic,0.01,0.53,0.0053
+fried-rice,garlic,0.01,0.53,0.0053
+rawon,garlic,0.01,0.53,0.0053
+rendang,garlic,0.01,0.53,0.0053
+chicken-satay,garlic,0.01,0.53,0.0053
+soto,garlic,0.01,0.53,0.0053
+fried-tofu,garlic,0.005,0.53,0.00265
+dumpling,garlic,0.005,0.53,0.00265
+chicken-porridge,ginger,0.002,0.61,0.00122
+chicken-noodles,ginger,0.01,0.61,0.0061
+rawon,ginger,0.01,0.61,0.0061
+rendang,ginger,0.01,0.61,0.0061
+chicken-satay,ginger,0.01,0.61,0.0061
+soto,ginger,0.01,0.61,0.0061
+fried-tofu,ginger,0.005,0.61,0.00305
+dumpling,ginger,0.005,0.61,0.00305
+chicken-porridge,onion,0.01,0.17,0.0017000000000000001
+chicken-noodles,onion,0.02,0.17,0.0034000000000000002
+fried-rice,onion,0.025,0.17,0.00425
+rawon,onion,0.05,0.17,0.0085
+soto,onion,0.05,0.17,0.0085
+hamburger,onion,0.025,0.17,0.00425
+chicken-porridge,celery,0.01,0.12,0.0012
+chicken-noodles,celery,0.01,0.12,0.0012
+chicken-porridge,carrot,0.01,0.37,0.0037
+fried-rice,carrot,0.025,0.37,0.00925
+chicken-porridge,spring onion,0.01,0.26,0.0026000000000000003
+chicken-noodles,spring onion,0.01,0.26,0.0026000000000000003
+chicken-porridge,vegetable oil,0.01,2.6,0.026000000000000002
+sweet-potato-porridge,rice flour,0.075,3.4,0.255
+sweet-potato-porridge,coconut milk,0.075,1.6,0.12
+rawon,coconut milk,0.05,1.6,0.08000000000000002
+rendang,coconut milk,0.2,1.6,0.32000000000000006
+chicken-satay,coconut milk,0.05,1.6,0.08000000000000002
+sweet-potato-porridge,palm sugar,0.025,0.64,0.016
+sweet-potato-porridge,water,0.15,0.1,0.015
+bread,water,0.01,0.1,0.001
+soto,water,0.05,0.1,0.005000000000000001
+dumpling,water,0.025,0.1,0.0025000000000000005
+grilled-fish,fish fillet,0.15,9.2,1.38
+fried-fish,fish fillet,0.2,9.2,1.8399999999999999
+grilled-fish,black pepper,0.001,4.8,0.0048
+fried-fish,black pepper,0.001,4.8,0.0048
+steak,black pepper,0.002,4.8,0.0096
+fried-tempeh,black pepper,0.001,4.8,0.0048
+grilled-fish,olive oil,0.002,6.0,0.012
+steak,olive oil,0.015,6.0,0.09
+grilled-fish,lemon juice,0.002,1.5,0.003
+chicken-satay,lemon juice,0.01,1.5,0.015
+fried-fish,all-purpose flour,0.002,1.0,0.002
+sweet-martabak,all-purpose flour,0.075,1.0,0.075
+fried-fish,oil,0.002,1.8,0.0036000000000000003
+french-fries,oil,0.01,1.8,0.018000000000000002
+chicken-noodles,oil,0.01,1.8,0.018000000000000002
+fried-rice,oil,0.015,1.8,0.027
+fried-banana,oil,0.01,1.8,0.018000000000000002
+rendang,oil,0.015,1.8,0.027
+chicken-satay,oil,0.01,1.8,0.018000000000000002
+fried-tofu,oil,0.03,1.8,0.054
+egg,oil,0.025,1.8,0.045000000000000005
+fried-tempeh,oil,0.002,1.8,0.0036000000000000003
+fried-shrimp,oil,0.02,1.8,0.036000000000000004
+donut,oil,0.01,1.8,0.018000000000000002
+french-fries,potato,0.2,0.28,0.05600000000000001
+coffee,coffee beans,0.01,12.0,0.12
+sweet-martabak,sugar,0.025,0.66,0.0165
+bread,sugar,0.005,0.66,0.0033000000000000004
+chicken-satay,sugar,0.01,0.66,0.006600000000000001
+donut,sugar,0.01,0.66,0.006600000000000001
+sweet-martabak,baking powder,0.003,0.3,0.0009
+donut,baking powder,0.005,0.3,0.0015
+sweet-martabak,milk,0.05,2.2,0.11000000000000001
+milk,milk,0.25,2.2,0.55
+fried-shrimp,milk,0.03,2.2,0.066
+donut,milk,0.02,2.2,0.044000000000000004
+sweet-martabak,butter,0.025,17.0,0.42500000000000004
+sweet-martabak,vanilla extract,0.001,3.2,0.0032
+fried-rice,peas,0.025,0.27,0.006750000000000001
+fried-rice,soy sauce,0.01,1.2,0.012
+fried-tofu,soy sauce,0.015,1.2,0.018
+fried-tempeh,soy sauce,0.002,1.2,0.0024
+dumpling,soy sauce,0.005,1.2,0.006
+fried-banana,banana,0.1,0.64,0.064
+banana,banana,0.1,0.64,0.064
+rawon,beef,0.15,59.6,8.94
+rendang,beef,0.25,59.6,14.9
+rawon,kluwek nut,0.01,0.4,0.004
+rawon,kemiri nut,0.01,4.5,0.045
+rawon,lemongrass,0.01,0.5,0.005
+rendang,lemongrass,0.01,0.5,0.005
+rendang,chili,0.01,1.6,0.016
+rendang,brown sugar,0.03,0.47,0.014099999999999998
+rendang,shallot,0.02,0.35,0.006999999999999999
+rendang,turmeric,0.003,4.0,0.012
+soto,turmeric,0.005,4.0,0.02
+rendang,coriander,0.003,0.6,0.0018
+soto,coriander,0.01,0.6,0.006
+rendang,cumin,0.003,0.72,0.00216
+soto,cumin,0.01,0.72,0.0072
+bread,yeast,0.005,3.2,0.016
+chicken-satay,ground coriander,0.002,0.71,0.00142
+chicken-satay,ground cumin,0.002,2.3,0.0046
+chicken-satay,ground turmeric,0.002,4.0,0.008
+steak,meat,0.15,10.0,1.5
+fried-tofu,tofu,0.2,1.3,0.26
+tea,tea leaves,0.002,0.3,0.0006
+fried-tempeh,tempeh,0.2,0.3,0.06
+fried-shrimp,shrimp,0.1,11.8,1.1800000000000002
+hamburger,ground beef,0.1,20.0,2.0
+hamburger,bread roll,0.05,1.0,0.05
+hamburger,cheese,0.025,10.0,0.25
+hamburger,lettuce,0.025,0.57,0.014249999999999999
+hamburger,tomato,0.025,1.42,0.0355
+hamburger,mustard,0.005,1.5,0.0075
+hamburger,ketchup,0.005,1.1,0.0055000000000000005
+dumpling,ground pork,0.05,12.1,0.605
+dumpling,green onion,0.01,0.26,0.0026000000000000003
+dumpling,sesame oil,0.005,2.3,0.0115
