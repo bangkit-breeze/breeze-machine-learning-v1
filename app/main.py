@@ -5,7 +5,7 @@ from model.model_classification import predict_image_clf
 from model.model_segmentation import predict_image_sgmnt
 from PIL import Image
 
-THRESHOLD = 0.6
+THRESHOLD = 0.85
 
 app = FastAPI()
 
@@ -51,7 +51,7 @@ async def predict(image: UploadFile):
         "version": model_version,
         "filename": image.filename,
         "food_name": predicted_class_clf,
-        "confidence": str(confidence_clf),
+        "confidence": str(round(confidence_clf, 3)),
         "ingredients": ingredients,
-        "total_emissions": total_emission,
+        "total_emissions": round(total_emission, 3),
     }

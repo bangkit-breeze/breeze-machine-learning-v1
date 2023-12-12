@@ -23,7 +23,7 @@ def getCarbonEmission(name: str):
     ingredients.append({
       "bahan": row['BAHAN'],
       "berat": row['BERAT (kg)'],
-      "carbon_footprint": row['Carbon Footprint']
+      "carbon_footprint": round(row['Carbon Footprint'], 3)
     })
 
   # Calculate total emissions
@@ -44,7 +44,7 @@ def getCarbonEmissionSegmentation(ingredients_list: list):
       ingredients.append({
         "bahan": row['Food Product'],
         "berat": row['Weight (kg)'],
-        "carbon_footprint": row['Carbon Footprint']
+        "carbon_footprint": round(row['Carbon Footprint'], 3)
       })
 
   return ingredients, total_emission
