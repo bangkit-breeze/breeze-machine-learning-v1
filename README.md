@@ -12,6 +12,9 @@ This API serves as a tool to identify various food items depicted in images. The
 - `/app`: Includes the API code for handling image uploads and making predictions.
 - `/app/model`: Contains fine-tuned models used for food name detection and food items segmentation
 
+## Dataset
+The dataset used for fine-tuning the models is [Breeze Food-Dataset](https://github.com/bangkit-breeze/breeze-datasets). The data contains 32 food categories with around 200 images per category. The dataset is collected by scraping google images and manually filtered by the team.
+
 ## API Documentation
 The following endpoints are provided in this application:  
 | Method | Endpoint                     | Description                                        |
@@ -79,3 +82,9 @@ This repository is deployed using Docker
 ## References
 - Sandler, M., Howard, A., Zhu, M., Zhmoginov, A., & Chen, L. C. (2018). Mobilenetv2: Inverted residuals and linear bottlenecks. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 4510-4520). [Read this paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Sandler_MobileNetV2_Inverted_Residuals_CVPR_2018_paper.html)
 - [FastAPI](https://fastapi.tiangolo.com/)
+
+## Collaborator
+Create with ❤️ by Breeze Machine Learning Team
+- Hafidz Nur Rahman Ghozali
+- Gilang Banyu Biru Erassunu
+- Muhammad Daffa Ramadhan
