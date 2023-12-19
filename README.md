@@ -13,7 +13,7 @@ This API serves as a tool to identify various food items depicted in images. The
 - `/app/model`: Contains fine-tuned models used for food name detection and food items segmentation
 
 ## Dataset
-The dataset used for fine-tuning the models is [Breeze Food-Dataset](https://github.com/bangkit-breeze/breeze-datasets). The data contains 32 food categories with around 200 images per category. The dataset is collected by scraping google images and manually filtered by the team.
+The dataset used for fine-tuning the models is [Breeze Food-Dataset](https://github.com/bangkit-breeze/breeze-datasets). The data consist of 30 food names with around 200 images per food. The dataset is collected by scraping google images and manually filtered by the team.
 
 ## API Documentation
 The following endpoints are provided in this application:  
@@ -84,7 +84,7 @@ This repository is deployed using Docker
 - [FastAPI](https://fastapi.tiangolo.com/)
 
 ## Collaborator
-Create with ❤️ by Breeze Machine Learning Team
+Made with ❤️ by Breeze Machine Learning Team
 - Hafidz Nur Rahman Ghozali
 - Gilang Banyu Biru Erassunu
 - Muhammad Daffa Ramadhan
