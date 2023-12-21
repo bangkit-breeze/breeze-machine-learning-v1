@@ -15,7 +15,7 @@ This API serves as a tool to identify various food items depicted in images. The
 ## Dataset
 The dataset used for fine-tuning the models is [Breeze Food-Dataset](https://github.com/bangkit-breeze/breeze-datasets). The data consist of 30 food names with around 200 images per food. The dataset is collected by scraping google images and manually filtered by the team.
 
-For the segmentation model the datasetwe used is [FoodSeg103](https://paperswithcode.com/dataset/foodseg103). The data consists of food image dataset containing 7,118 images. Images are annotated with 104 ingredient classes and each image has an average of 6 ingredient labels and pixel-wise masks.
+For the segmentation model the dataset we used is [FoodSeg103](https://paperswithcode.com/dataset/foodseg103). The data consists of food image dataset containing 7,118 images. Images are annotated with 104 ingredient classes and each image has an average of 6 ingredient labels and pixel-wise masks.
 
 ## API Documentation
 The following endpoints are provided in this application:  
